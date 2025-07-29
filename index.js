@@ -133,6 +133,5 @@ const userInputString = prompt(
   "Please enter some integers separated by commas.",
   "28,-15,30,975,400"
 );
-//const userInputString = "28,-15,30,975,400" //TODO remove this, uncomment above
 const numbers = convertStringToNumbers(userInputString);
 describeNumbers(numbers);
